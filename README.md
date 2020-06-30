@@ -8,7 +8,7 @@
 ### Technical Challenges 
     1. Design and visualize in HTML/CSS
 ### Wireframes (hopefully)
-![](./wireframe.jpg)
+![Wireframe](./wireframe.jpg)
 
 ### Additional Features
 
