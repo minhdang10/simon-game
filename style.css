@@ -11,9 +11,19 @@ body {
   cursor: pointer;
 }
 
-.panel:hover {
-  box-shadow: inset 0px 0px 0px 3px cyan;
-  box-sizing: border-box;
+.top-left {
+  border-top-left-radius: 100%;
+  background-color: yellow;
+}
+
+.top-right {
+  border-top-right-radius: 100%;
+  background-color: green;
+}
+
+.bottom-left {
+  border-bottom-left-radius: 100%;
+  background-color: blue;
 }
 
 .bottom-right {
@@ -21,19 +31,11 @@ body {
   background-color: red;
 }
 
-.bottom-left {
-  border-bottom-left-radius: 100%;
-  background-color: blue;
-}
-.top-right {
-  border-top-right-radius: 100%;
-  background-color: green;
-}
-.top-left {
-  border-top-left-radius: 100%;
-  background-color: yellow;
-}
-
 .active {
   background-color: white;
+}
+
+.panel:hover {
+  box-shadow: inset 0px 0px 0px 3px cyan;
+  box-sizing: border-box;
 }
