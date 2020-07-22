@@ -26,13 +26,13 @@ const flash = panel => {
 
 let click = false;
 
-const clickedPanel = clickedPanel => {
+const panelClicked = panelClicked => {
   if (!click) return; //return from the callback preventing player to click when still flashing
   const expectedPanel = guess.shift();
-  //console.log(expectedPanel);
-  if (expectedPanel === clickedPanel) {
+  console.log(expectedPanel);
+  if (expectedPanel === panelClicked) {
     if (guess.length === 0) {
-      // New round
+      // New around
       sequence.push(randomPanel());
       guess = [...sequence];
       startFlashing();
