@@ -26,7 +26,7 @@ const flash = panel => {
 
 let click = false;
 
-const panelClicking = clickedPanel => {
+const clickedPpanel = clickedPanel => {
   if (!click) return; //return from the callback preventing player to click when still flashing
   const expectedPanel = guess.shift();
   //console.log(expectedPanel);
